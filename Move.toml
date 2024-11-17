@@ -1,0 +1,13 @@
+[package]
+name = "TicTacToe"
+version = "1.0.0"
+authors = []
+[addresses]
+metaschool = "0x9c7ea283d16da1cb47fe219944876e3ad5e6d26341dc3498f3de0958b4b0bf12"
+std = "0x1"
+[dev-addresses]
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+[dev-dependencies]
